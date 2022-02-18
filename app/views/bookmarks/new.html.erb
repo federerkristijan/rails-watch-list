@@ -1,0 +1,7 @@
+<h1>Make a new bookmark for <%= @bookmark.comment %></h1>
+
+<%= render 'form', list: @bookmark %>
+
+  <%= f.submit class: "btn btn-primary" %>
+
+<%= link_to 'Back', bookmarks_path %>
